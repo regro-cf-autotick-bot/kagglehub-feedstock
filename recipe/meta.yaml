@@ -1,5 +1,5 @@
 {% set name = "kagglehub" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kagglehub-{{ version }}.tar.gz
-  sha256: 6ff3ae9ef6e252f02c685006c51b2ea51ba1c3f316e4adde9486a045faa57e26
+  sha256: 9b3d26849a8284ea7f3369db2894c11fe6a362e7e52218eb1996b53c541ebeb6
 
 build:
   noarch: python

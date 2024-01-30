@@ -23,6 +23,7 @@ requirements:
     - python >=3.7
     - requests
     - tqdm
+    - packaging
 
 test:
   imports:
